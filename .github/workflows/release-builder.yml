@@ -33,6 +33,6 @@ jobs:
         name: ${{ github.ref_name }}
         generate_release_notes: true
         tag_name: ${{ github.ref }}
-        files: build/tgb-t
+        files: build/tgb
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
