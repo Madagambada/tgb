@@ -269,7 +269,7 @@ int main(int argc, char* argv[]) {
     }
 
     if (result.count("version")) {
-        std::cout << "Build with: \n" + std::string(curl_version()) + "\nhttplib/" + CPPHTTPLIB_VERSION + "\n" << std::endl;
+        std::cout << "Build with: \n" + std::string(curl_version()) + " httplib/" + CPPHTTPLIB_VERSION + "\n" << std::endl;
         return 0;
     }
 
